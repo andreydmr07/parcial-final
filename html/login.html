@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Las Nubes</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/file.js">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container vh-50">
+
+            <!--Barra de navegacion-->
+            <nav class="row text-white justify-content-between align-items-center text-uppercase pt-4">
+
+                <!--Logo-->
+                <a href="#" class="col-auto text-reset text-decoration-none">
+                    <img src="../img/logo.png" alt="Logo AddEvent" class="img-logo " />
+                    HOTEL LAS NUBES
+
+                </a>
+                <div class="col-auto">
+
+                    <a href="../index.html" class="text-reset text-decoration-none mx-1">Home</a>
+                    <a href="./login.html" class="text-reset text-decoration-none mx-2">Iniciar sesión</a>
+                    
+                </div>
+            </nav>
+        </div>
+
+
+
+        <div class="row" id="validar_registro" style="display: '';" >
+            <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6 ">
+                <div class="container w-100 d-flex justify-content-center align-items-center">
+                    <div class="text-white ">
+                            <h2>Bienvenido a Hotel Las Nubes</h2>
+                            <p>Por favor inicie sesión</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4  col-md-4  col-sm-4 col-4 ">
+                <div class="container">
+                    <form>
+                        <div class="form-group text-white">
+                            <h3 class="text-center">Iniciar Sesión</h3>
+                        
+                            <div class="mb-1">
+                                <label class="form-label">Correo electronico</label>
+                                <input type="email" placeholder="ejemplo@ejemplo.com" class="form-control" id="txtemail">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Contraseña</label>
+                                <input type="password" placeholder="************" class="form-control" id="txtpassword">
+                            </div>
+
+                        </div>
+                        <div class="d-grid">
+                            <input type="button" value="Log In" onclick="SignIn()" class="btn btn-warning mt-2">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+    </div>
+
+    
+    <!---------------------------------------------------------------------------------------------------------------------->
+
+
+</div>
+
+
+<div class="bg-warning text-center p-3">
+    <p>&copy;
+        HOTEL LAS NUBES - 2022
+    </p><br>
+
+</div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../js/file.js"></script>
+
+</html>
